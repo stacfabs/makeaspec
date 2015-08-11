@@ -2,22 +2,43 @@
 <html>
 <head>
 	<title>Make A Spec | Test</title>
-	<script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<link rel="main.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+	<link href="main.css" rel="stylesheet">
 </head>
+
 <body>
-	<nav>
-		<ul>Navigation
-			<li>Link 1</li>
-			<li>Link 2</li>
-			<li>Link 3</li>
+	<nav>Navigation
+		<ul class="nav nav-pills">
+			<li href="bde-config" role="presentation">Link 1</li>
+			<li href="delivery-information" role="presentation">Link 2</li>
+			<li role="presentation">Link 3</li>
 		</ul>
 	</nav>
+
+	<section id="bde-config">
+		<form>
+			<fieldset>
+				<legend>BDE Information</legend>
+				    <label>Job Title</label>
+				    	<input type="text" placeholder="Descriptive Title">
+				    	<span class="help-block">(Include Tracker #)</span>
+				    <label class="checkbox">
+				      <input type="checkbox">Check me out
+				    </label>
+			  </fieldset>
+
+		</form>
+	</section>
 
 	<section>
 		<form>
 
 		</form>
 	</section>
+
+	<button type="submit" class="btn">Submit</button>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
