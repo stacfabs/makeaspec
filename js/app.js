@@ -9,3 +9,12 @@ var submitClick = function() {
 };
 
 submitButton.addEventListener('click', submitClick);
+
+// Next Steps:
+
+// Send array values to JSON
+// For value type on fields
+// Dropdown for sponsors
+// Active search for sponsors
+// Import sponsor optionsfrom "database"
+// 
