@@ -1,11 +1,11 @@
-var data = [];
+var data = {};
 
 // console.log("Data before function = " + data);
-
+ 
 var submitClick = function() {
-	console.log("Data on first line of function = " + data);
-	data.push(document.getElementById('title'));
-	console.log("Data after function = " + data);
+	data.title = (document.getElementById('title').value);
+	data.emails = (document.getElementById('inputEmail').value);
+	console.log(data);
 };
 
 submitButton.addEventListener('click', submitClick);

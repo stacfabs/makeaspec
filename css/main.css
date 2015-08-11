@@ -1,5 +1,5 @@
 /* ===============
-	General
+   General
 =============== */
 
 body {
@@ -7,14 +7,53 @@ body {
 }
 
 /* ===============
-	Navigation
+   Navigation
 =============== */
-
-nav li {
-	list-style: none;
-	color: red;
-}
 
 nav {
 	margin-bottom: 2rem;
 }
+
+nav h3 {
+	padding: 1.5rem;
+	background-color: grey;
+	color: white;
+}
+
+nav li {
+	list-style: none;
+	text-decoration: none;
+	font-weight: bold;
+	background-color: pink; 
+}
+
+nav li a {
+	color: black;
+}
+
+
+
+/* ===============
+   Configuration
+=============== */
+
+#sponsor-select {
+	margin: .5rem 0rem 1.5rem 0rem;
+}
+
+/* ===============
+   Delivery
+=============== */
+#delivery-information {
+	margin-top: 2rem;
+}
+
+
+#submitButton {
+	margin-top: 1rem;
+}
+
+
+
+
+

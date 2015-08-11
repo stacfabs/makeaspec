@@ -8,30 +8,50 @@
 </head>
 
 <body>
-	<nav>Navigation
+	<nav><h3>Batch Data Export</h3>
 		<ul class="nav nav-pills">
-			<li href="bde-config" role="presentation">Link 1</li>
-			<li href="delivery-information" role="presentation">Link 2</li>
-			<li role="presentation">Link 3</li>
+			<li role="presentation"><a href="#bde-config">Configuration</a></li>
+			<li role="presentation"><a href="#delivery-information">Delivery Information</a></li>
+			<li role="presentation"><a href="#schedule">Schedule</a></li>
 		</ul>
 	</nav>
 
 	<section id="bde-config">
 		<form>
+		<!-- bootstrap version -->
 			<fieldset>
-				<legend>BDE Information</legend>
+				<legend>Configuration</legend>
+				    <div class="input-append" id="sponsor-select">
+  						<input class="span2" id="appendedInputButtons" type="text" placeholder="Select Sponsor (active search or dropdown)">
+  						<button class="btn" type="button">Search</button>
+ 
+					</div>
 				    <label>Job Title</label>
 				    	<input type="text" placeholder="Descriptive Title" id="title">
 				    	<span class="help-block">(Include Tracker #)</span>
-				    <label class="checkbox">
+				    <!-- <label class="checkbox">
 				      <input type="checkbox">Check me out
-				    </label>
+				    </label> -->
 			  </fieldset>
+
 
 		</form>
 	</section>
 
-	<section>
+	<section id="delivery-information">
+		<form class="form-horizontal">
+			<legend>Delivery Information</legend>
+			<div class="control-group">
+    			<label class="control-label" for="inputEmail">Email Addresses</label>
+    			<div class="controls">
+      				<input type="text" id="inputEmail" placeholder="">
+    			</div>
+    			<span class="help-block">Separate emails with semicolon ( ; )</span>
+  			</div>
+		</form>
+	</section>
+
+	<section id="schedule">
 		<form>
 
 		</form>
@@ -40,8 +60,8 @@
 	<button type="submit" class="btn" id="submitButton">Submit</button>
 
 	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.js.min"></script>
-	<script src="js/npm.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- <script src="js/npm.js"></script> -->
 	<script src="js/app.js"></script>
 
 </body>
