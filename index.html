@@ -2,8 +2,9 @@
 <html>
 <head>
 	<title>Make A Spec | Test</title>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
-	<link href="main.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -20,7 +21,7 @@
 			<fieldset>
 				<legend>BDE Information</legend>
 				    <label>Job Title</label>
-				    	<input type="text" placeholder="Descriptive Title">
+				    	<input type="text" placeholder="Descriptive Title" id="title">
 				    	<span class="help-block">(Include Tracker #)</span>
 				    <label class="checkbox">
 				      <input type="checkbox">Check me out
@@ -36,9 +37,12 @@
 		</form>
 	</section>
 
-	<button type="submit" class="btn">Submit</button>
+	<button type="submit" class="btn" id="submitButton">Submit</button>
 
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="app.js"></script>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.js.min"></script>
+	<script src="js/npm.js"></script>
+	<script src="js/app.js"></script>
+
 </body>
 </html>
