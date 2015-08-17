@@ -28,21 +28,20 @@
 					</div>
 				    <label>Job Title</label>
 				    	<input type="text" placeholder="Descriptive Title" id="title">
-				    	<span class="help-block">(Include Tracker #)</span>
 				    <!-- <label class="checkbox">
 				      <input type="checkbox">Check me out
 				    </label> -->
 			  </fieldset>
 
-
 		</form>
 	</section>
 
+<!-- General Delivery Information -->
 	<section id="delivery-information">
 		<form class="form-horizontal">
 			<legend>Delivery Information</legend>
 			<div class="control-group">
-    			<label class="control-label" for="inputEmail">Email Addresses</label>
+    			<label class="control-label" for="inputEmail">Email Addresse(s)</label>
     			<div class="controls">
       				<input type="text" id="inputEmail" placeholder="">
     			</div>
@@ -51,13 +50,23 @@
 		</form>
 	</section>
 
+<!-- Select FTP Delivery Options -->
 	<section id="schedule">
+		<ul>
+			<li>Site Manager Deliery</li>
+			<li>Client Pickup (SFTP Pull)</li>
+			<li>Deliver to Client (SFTP Push)</li>
+		</ul>
+
 		<form>
 
 		</form>
+	
 	</section>
 
 	<button type="submit" class="btn" id="submitButton">Submit</button>
+
+	<button type="submit" class="btn" id="clientSpec">Generate Client Spec</button>
 
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
