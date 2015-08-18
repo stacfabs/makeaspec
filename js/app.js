@@ -1,3 +1,5 @@
+// decoupling our proof of concept to prove maximum ROI for scalability potential
+
 var data = {};
 
 // console.log("Data before function = " + data);
@@ -5,6 +7,7 @@ var data = {};
 var submitClick = function() {
 	data.title = (document.getElementById('title').value);
 	data.emails = (document.getElementById('inputEmail').value);
+	data.sponsor = (document.getElementById('sponsorName').value);
 	console.log(data);
 };
 
