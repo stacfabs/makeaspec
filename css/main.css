@@ -45,16 +45,25 @@ nav li a {
 /* ===============
    Delivery
 =============== */
+h4 {
+	visibility: hidden;
+}
+
 #delivery-information {
 	margin-top: 2rem;
 }
-
 
 #submitButton {
 	margin-top: 1rem;
 }
 
+.selected {
+	visibility: visible;
+}
 
+.hidden {
+	visibility: hidden;
+}
 
 
 

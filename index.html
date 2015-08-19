@@ -53,15 +53,21 @@
 <!-- Select FTP Delivery Options -->
 	<section id="schedule">
 		<ul>
-			<li>Site Manager Deliery</li>
-			<li>Client Pickup (SFTP Pull)</li>
-			<li>Deliver to Client (SFTP Push)</li>
+			<button id="deliverSiteManager">Site Manager Delivery</button>
+			<button id="sftpPullDeliver">Client Pickup (SFTP Pull)</button>
+			<button id="sftpPushDeliver">Deliver to Client (SFTP Push)</button>
 		</ul>
-
-		<form>
-
-		</form>
+		<div id="siteManagerDeliveryConfig" class="siteManagerDeliveryConfig">
+			<h4>List Site Manager Delivery Fields</h4>
+		</div>
 	
+		<div id="sftpPullDeliveryConfig" class="sftpPullDeliveryConfig">
+			<h4>List SFTP Pull Delivery Fields</h4>
+		</div>
+
+		<div id="sftpPushDeliveryConfig" class="sftpPullDeliveryConfig">
+			<h4>List SFTP Push Delivery Fields</h4>
+		</div>
 	</section>
 
 	<button type="submit" class="btn" id="saveButton">Save</button>
